@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+    <title>Gene search</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="custom.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+    <div class="wrap">
+        <div class="search">
+            <div class="search-bar">
+                <input type="text" id="search_input" type="text" size="30" class="searchTerm"
+                    placeholder="Enter a human gene">
+            </div>
+            <button type="submit" class="searchButton">
+                <i class="fa fa-search"></i></button>
+
+
+            <div class="results">
+                <ul id="show_result" style="color: black;"></ul>
+            </div>
+        </div>
+
+        <ul id="livesearch" style="color: black;"></ul>
+
+
+
+
+</body>
+
+
+<!-- <script src="js/jquery.min.js"></script> -->
+
+
+<script src="js/d3.v3.min.js"></script>
+
+<!-- Must include main.js at the top or showResult is not defined when setting the input's onkeyup event -->
+<script src="js/main.js"></script>
+
+
+
+</html>
