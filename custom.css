@@ -110,4 +110,10 @@ body {
     width: 258px;
     align-items: flex-start;
   }
+  #show_result {
+    position: relative;
+    left: -35%;
+    margin-top: 60px;
+    width: 250px;
+  }
 }
