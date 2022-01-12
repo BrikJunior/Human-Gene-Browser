@@ -73,3 +73,41 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+@media screen and (max-width: 500px) {
+  .searchTerm {
+    position: absolute;
+    left: -70%;
+    width: 210%;
+    border: 3px solid #00b4cc;
+    border-right: 50px;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9dbfaf;
+  }
+  .searchButton {
+    position: relative;
+    right: -65%;
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00b4cc;
+    background: #00b4cc;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  #livesearch {
+    position: absolute;
+    color: antiquewhite;
+    background-color: #f2f2f2;
+    z-index: 1000;
+    border-radius: 20px;
+    left: -70%;
+    top: 25px;
+    width: 258px;
+    align-items: flex-start;
+  }
+}
